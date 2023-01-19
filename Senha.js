@@ -51,14 +51,11 @@ function clic() {
 
         resul.innerHTML = senha;
         quant.value = "";
-        for (var i = 0; i < numeros.length; i++){
-            numeros[i].checked = false;
-
-        }
-            
-        simbolo.innerHTML = "";
+        
     } else {
+       
         alert("A quantidade de caracteres deve ser entre 8 e 20");
+        quant.value = "";
     }
 
 }
