@@ -67,13 +67,7 @@ a {
 
 a:hover {
     display: inline;
-   
     color: white;
-
     text-justify: auto;
     position: static;
-   
-   
-    
-
 }
